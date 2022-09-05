@@ -1,0 +1,6 @@
+@mixin ColorEsp() {
+    background: rgb(117, 17, 17)
+}
+footer{
+    @include ColorEsp()
+}
